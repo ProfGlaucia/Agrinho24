@@ -1,0 +1,97 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #36922a; /* verde */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo dos títulos do cabeçalho */
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilo dos parágrafos no cabeçalho */
+  header p {
+    font-size: 1.2em;
+  }
+  
+  /* Estilo do conteúdo principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilo das seções */
+  section {
+    background-color: #fff; /* Fundo branco */
+    border: 1px solid #ddd; /* Borda cinza claro */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  /* Estilo dos títulos das seções */
+  h2 {
+    color: #36922a;  /* verde */
+  }
+  
+  /* Estilo das listas */
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #333; /* Cinza escuro */
+    color: #fff; /* Texto branco */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo dos links */
+  a {
+    color: #007bff; /* Azul */
+    text-decoration: none; /* Remove o sublinhado */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+  }
+  
+  /* Estilo dos botões (se houver) */
+  button {
+    background-color: #28a745; /* Verde */
+    border: none;
+    color: #fff; /* Texto branco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Verde mais escuro */
+  }
+  .hidden {
+    display: none;
+}
+ 
+img {
+  max-width: 100%; /* Garante que a imagem não exceda o tamanho do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 8px; /* Bordas arredondadas */
+  display: block; /* Remove espaços indesejados abaixo da imagem */
+  margin: 20px 0; /* Margem em torno da imagem */
+}
